@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Netflix Client
+    name: netflix-client
 
 management:
   port: 8081
