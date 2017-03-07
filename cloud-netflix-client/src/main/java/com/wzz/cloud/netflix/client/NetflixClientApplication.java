@@ -1,9 +1,8 @@
 package com.wzz.cloud.netflix.client;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,8 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by zhizhao.wang on 2017/3/6.
  */
 
-@Configuration
-@EnableAutoConfiguration
+@SpringBootApplication
 @EnableEurekaClient
 @RestController
 public class NetflixClientApplication {

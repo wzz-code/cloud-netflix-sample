@@ -1,3 +1,21 @@
 spring:
   application:
     name: Netflix Client
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+info:
+  team:
+    developer: Wang Zhizhao
+    tester: Wang Zhizhao
+  docs:
+    url: https://github.com/wzz-code/cloud-netflix-sample
+
+endpoints:
+  sensitive: false
+  beans:
+    sensitive: true
