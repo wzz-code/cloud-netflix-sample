@@ -2,11 +2,17 @@ spring:
   application:
     name: Netflix Client
 
+management:
+  port: 8081
+  context-path: /admin
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    status-page-url-path: ${management.context-path}/info
+    health-check-url-path: ${management.context-path}/health
 
 info:
   team:

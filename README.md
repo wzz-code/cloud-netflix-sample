@@ -50,3 +50,22 @@ endpoints:
 如上所示，`info` 则定义此应用程序的一些相关信息，如开发人员、测试人员、文档地址等。
 当需要让所有的健康监控接口都有关闭验证，则可以设置 `endpoints.sensitive = false`，
 如果需要再指定特定的接口，如指定beans需要验证后才可访问，则可设置 `endpoints.beans.sensitive = true`
+
+##v1.1.1 修改默认监控访问地址
+
+我们也可以修改监控的默认访问地址，如下示例
+
+```yaml
+management:
+  port: 8081
+  context-path: /admin
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    status-page-url-path: ${management.context-path}/info
+    health-check-url-path: ${management.context-path}/health
+```
+如上所示，将管理端口修改为`8081`，访问地址为 http://localhost:8081/admin ，并且通过 `eureka.instance.xxxx-url-path` 告诉Eureka Server此应用程序修改后的监控接口地址
