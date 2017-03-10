@@ -30,7 +30,7 @@ public class StoreIntegration {
 </dependency>
 ```
 
-1. 运行HystrixApplication，访问 http://localhost:8100/hystrix 
-1. 在steam文本框中输入 http://localhost:8100/hystrix.stream ， 并点击 `Monitor Stream` 进入 监控页面
-1. 在新的浏览器中访问 http://localhost:8100/test , 并在监控页面查看效果
+1. 运行HystrixApplication，访问 [hystrix](http://localhost:8100/hystrix)
+1. 在steam文本框中输入 `http://localhost:8100/hystrix.stream` ， 并点击 `Monitor Stream` 进入 监控页面
+1. 在新的浏览器中访问 [test](http://localhost:8100/test) , 并在监控页面查看效果
 
