@@ -18,8 +18,8 @@ Turbine，监控聚合，使用Hystrix监控，我们需要打开每一个服务
 1. 运行NetflixServerApplication，访问 [eureka](http://eureka:8761)，查看服务监控界面
 1. 运行HystrixApplication，访问 [hystrix](http://hystrix:8100/hystrix)，进入到配置页面
 1. 运行TurbineApplication，在steam文本框中输入 `http://turbine:8989/turbine.stream?cluster=MAIN` ， 并点击 `Monitor Stream` 进入 监控页面
-1. 运行NetflixClientApplication，在新的浏览器中访问 [test](http://netflix-client:8080/hystrix-hello) , 并在监控页面查看效果
-1. 在新的浏览器中访问 [hystrix-hello](http://hystrix:8100/hystrix-hello)  , 并在监控页面查看效果
+1. 运行NetflixClientApplication，在新的浏览器中访问 [hystrix-hello](http://netflix-client:8080/hystrix-hello) , 并在监控页面查看效果
+1. 在新的浏览器中访问 [test](http://hystrix:8100/test)  , 并在监控页面查看效果
 
 ###配置说明
 
