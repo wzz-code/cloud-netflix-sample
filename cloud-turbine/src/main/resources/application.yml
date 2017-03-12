@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: turbine
+
+server:
+  port: 8989
+
+turbine:
+  aggregator:
+    clusterConfig: MAIN
+  app-config: hystrix, netflix-client
+  cluster-name-expression: metadata['cluster']
+  instanceUrlSuffix:
+    MAIN: admin/hystrix.stream

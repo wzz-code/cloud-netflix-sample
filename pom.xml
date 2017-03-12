@@ -13,6 +13,7 @@
         <module>cloud-netflix-server</module>
         <module>cloud-netflix-client</module>
         <module>cloud-hystrix</module>
+        <module>cloud-turbine</module>
     </modules>
 
     <properties>

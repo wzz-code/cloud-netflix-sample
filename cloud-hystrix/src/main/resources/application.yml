@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hystrix
+server:
+  port: 8100
+
+management:
+  context-path: /admin
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      cluster: MAIN

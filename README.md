@@ -91,3 +91,7 @@ eureka:
 运行HystrixApplication，访问 http://localhost:8100/health
 
 Hystrix详细内容请查看 `cloud-hystrix/README.md` 
+
+## Turbine
+
+Hystrix详细内容请查看 `cloud-turbine/README.md`
