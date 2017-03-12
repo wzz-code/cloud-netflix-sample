@@ -9,7 +9,10 @@ Turbine，监控聚合，使用Hystrix监控，我们需要打开每一个服务
 先在 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc` 添加配置，如下
 
 ```text
-
+127.0.0.1	eureka
+127.0.0.1	netflix-client
+127.0.0.1	turbine
+127.0.0.1	hystrix
 ```
 
 1. 运行NetflixServerApplication，访问 [eureka](http://eureka:8761)，查看服务监控界面
