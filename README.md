@@ -98,4 +98,8 @@ Hystrix详细内容请查看 `cloud-turbine/README.md`
 
 ## Ribbon
 
-Ribbon详细内容请查看 `cloud-Ribbon/README.md`
+Ribbon详细内容请查看 `cloud-ribbon/README.md`
+
+## Feign
+
+Feign详细内容请查看 `cloud-feign/REAMDE.md`
