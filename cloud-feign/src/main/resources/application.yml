@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: feign
+server:
+  port: 3355

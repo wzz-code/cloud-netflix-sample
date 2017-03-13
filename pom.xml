@@ -15,6 +15,7 @@
         <module>cloud-hystrix</module>
         <module>cloud-turbine</module>
         <module>cloud-ribbon</module>
+        <module>cloud-feign</module>
     </modules>
 
     <properties>
