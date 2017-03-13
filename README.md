@@ -74,18 +74,18 @@ eureka:
 
 新增cloud-hystrix项目模块，并在pom.xml中添加配置
 ```xml
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
-        </dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-hystrix</artifactId>
+</dependency>
 ```
 
 运行HystrixApplication，访问 http://localhost:8100/health
@@ -95,3 +95,7 @@ Hystrix详细内容请查看 `cloud-hystrix/README.md`
 ## Turbine
 
 Hystrix详细内容请查看 `cloud-turbine/README.md`
+
+## Ribbon
+
+Ribbon详细内容请查看 'cloud-Ribbon/README.md'

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ribbon
+server:
+  port: 3333
