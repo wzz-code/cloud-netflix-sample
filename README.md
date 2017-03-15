@@ -4,7 +4,7 @@
 
 将通过创建里程碑的方式记录每一个阶段的学习及应用
 
-###运行示例
+### 运行示例
 
 __服务端__
 
@@ -16,13 +16,13 @@ __客户端__
 1. 运行cloud-netflix-client下的NetflixClientApplication
 1. 运行后将注册到Eureka服务，可通过 http://localhost:8761/ 查看是否已注册成功
 
-#版本
+# 版本
 
-##v1.0 创建示例项目
+## v1.0 创建示例项目
 
 创建一个基于Eureka的服务端以及客户端，并运行。
 
-##v1.1 健康监控
+## v1.1 健康监控
 
 如果需要查看程序的健康状态，则需要在 `pom.xml` 添加配置
 
@@ -51,7 +51,7 @@ endpoints:
 当需要让所有的健康监控接口都有关闭验证，则可以设置 `endpoints.sensitive = false`，
 如果需要再指定特定的接口，如指定beans需要验证后才可访问，则可设置 `endpoints.beans.sensitive = true`
 
-##v1.1.1 修改默认监控访问地址
+## v1.1.1 修改默认监控访问地址
 
 我们也可以修改监控的默认访问地址，如下示例
 
@@ -70,7 +70,7 @@ eureka:
 ```
 如上所示，将管理端口修改为`8081`，访问地址为 http://localhost:8081/admin ，并且通过 `eureka.instance.xxxx-url-path` 告诉Eureka Server此应用程序修改后的监控接口地址
 
-##v1.2 Circuit Breaker: Hystrix Clients
+## v1.2 Circuit Breaker: Hystrix Clients
 
 新增cloud-hystrix项目模块，并在pom.xml中添加配置
 ```xml
