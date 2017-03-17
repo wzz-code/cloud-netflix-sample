@@ -1,5 +1,25 @@
 # Spring Cloud Hystrix
 
+## v1.2 Circuit Breaker: Hystrix Clients
+
+新增cloud-hystrix项目模块，并在pom.xml中添加配置
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-hystrix</artifactId>
+</dependency>
+```
+
+运行HystrixApplication，访问 http://localhost:8100/health
+
 ##v1.2.1 How to Include Hystrix And Hystrix Dashboard
 在方法上添加@HystrixCommand注解
 

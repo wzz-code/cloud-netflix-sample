@@ -70,27 +70,9 @@ eureka:
 ```
 如上所示，将管理端口修改为`8081`，访问地址为 http://localhost:8081/admin ，并且通过 `eureka.instance.xxxx-url-path` 告诉Eureka Server此应用程序修改后的监控接口地址
 
-## v1.2 Circuit Breaker: Hystrix Clients
+## Hystrix
 
-新增cloud-hystrix项目模块，并在pom.xml中添加配置
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-hystrix</artifactId>
-</dependency>
-```
-
-运行HystrixApplication，访问 http://localhost:8100/health
-
-详细内容请查看 (cloud-hystrix)[cloud-hystrix]
+详细内容请查看 [cloud-hystrix](cloud-hystrix)
 
 ## Turbine
 
