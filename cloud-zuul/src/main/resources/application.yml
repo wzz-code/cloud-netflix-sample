@@ -1,0 +1,9 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: zuul-proxy
+zuul:
+  routes:
+    netflix-client: /*
+

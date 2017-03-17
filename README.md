@@ -103,3 +103,7 @@ Ribbon详细内容请查看 `cloud-ribbon/README.md`
 ## Feign
 
 Feign详细内容请查看 `cloud-feign/REAMDE.md`
+
+## Zuul
+
+详细内容请查看 [cloud-zuul](cloud-zuul)
