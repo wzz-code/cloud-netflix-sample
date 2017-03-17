@@ -2,7 +2,7 @@
 
 Zuul 是Netflix的基于JVM的路由器和服务器端负载均衡器。
 
-##Zuul_v1.0 创建Zuul DEMO
+## Zuul_v1.0 创建Zuul DEMO
 
 构建一个基于Spring Boot项目，并在pom.xml中加入如下内容
 
@@ -51,7 +51,7 @@ zuul:
 如上所示，`zuul.routes.netflix-client: /*` 表示所有的请求将会转发到 "netflix-client" 这个服务中，服务是通过eureka进行发现。 
 
 
-###运行示例
+### 运行示例
 
 先在 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc` 添加配置，如下
 

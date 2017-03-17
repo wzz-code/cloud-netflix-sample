@@ -20,7 +20,7 @@
 
 运行HystrixApplication，访问 http://localhost:8100/health
 
-##v1.2.1 How to Include Hystrix And Hystrix Dashboard
+## v1.2.1 How to Include Hystrix And Hystrix Dashboard
 在方法上添加@HystrixCommand注解
 
 ```java

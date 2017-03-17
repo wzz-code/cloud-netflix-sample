@@ -2,7 +2,7 @@
 
 Ribbon是一个基于HTTP和TCP客户端的负载均衡器
 
-##Ribbon_v1.0 创建Ribbon DEMO
+## Ribbon_v1.0 创建Ribbon DEMO
 
 构建一个基于Spring Boot项目，并在pom.xml中加入如下内容
 
@@ -59,7 +59,7 @@ public class ConsumerController {
 ```
 如上所示创建 `ConsumerController` 来消费 `NETFLIX-CLIENT` 的hystrix-hello服务。通过RestTemplate来调用服务。
 
-###运行示例
+### 运行示例
 
 先在 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc` 添加配置，如下
 

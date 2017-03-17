@@ -2,7 +2,7 @@
 
 Feign是一个声明式的Web Service客户端，它使得编写Web Serivce客户端变得更加简单。
 
-##Feign_v1.0 创建Feign DEMO
+## Feign_v1.0 创建Feign DEMO
 
 构建一个基于Spring Boot项目，并在pom.xml中加入如下内容
 
@@ -68,7 +68,7 @@ public class ConsumerController {
 }
 ```
 
-###运行示例
+### 运行示例
 
 先在 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc` 添加配置，如下
 

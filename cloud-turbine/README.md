@@ -2,9 +2,9 @@
 
 Turbine，监控聚合，使用Hystrix监控，我们需要打开每一个服务实例的监控信息来查看。而Turbine可以帮助我们把所有的服务实例的监控信息聚合到一个地方统一查看。这样就不需要挨个打开一个个的页面一个个查看。
 
-##Turbine_v1.0
+## Turbine_v1.0
 
-###运行示例
+### 运行示例
 
 先在 `/etc/hosts` 或 `C:\Windows\System32\drivers\etc` 添加配置，如下
 
@@ -21,9 +21,9 @@ Turbine，监控聚合，使用Hystrix监控，我们需要打开每一个服务
 1. 运行NetflixClientApplication，在新的浏览器中访问 [hystrix-hello](http://netflix-client:8080/hystrix-hello) , 并在监控页面查看效果
 1. 在新的浏览器中访问 [test](http://hystrix:8100/test)  , 并在监控页面查看效果
 
-###配置说明
+### 配置说明
 
-####cloud-trubine
+#### cloud-trubine
 在`pom.xml` 添加配置，并配置eureka
 
 ```xml
