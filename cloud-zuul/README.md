@@ -1,6 +1,6 @@
 # Feign
 
-Feign是一个声明式的Web Service客户端，它使得编写Web Serivce客户端变得更加简单。
+Ribbon是一个基于HTTP和TCP客户端的负载均衡器
 
 ##Feign_v1.0 创建Feign DEMO
 
