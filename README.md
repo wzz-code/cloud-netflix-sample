@@ -90,19 +90,19 @@ eureka:
 
 运行HystrixApplication，访问 http://localhost:8100/health
 
-Hystrix详细内容请查看 `cloud-hystrix/README.md` 
+详细内容请查看 (cloud-hystrix)[cloud-hystrix]
 
 ## Turbine
 
-Hystrix详细内容请查看 `cloud-turbine/README.md`
+详细内容请查看 [cloud-turbine](cloud-turbine)
 
 ## Ribbon
 
-Ribbon详细内容请查看 `cloud-ribbon/README.md`
+详细内容请查看 [cloud-ribbon](cloud-ribbon)
 
 ## Feign
 
-Feign详细内容请查看 `cloud-feign/REAMDE.md`
+详细内容请查看 [cloud-feign](cloud-feign)
 
 ## Zuul
 
